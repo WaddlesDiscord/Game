@@ -12,6 +12,7 @@ function loadVue(){
 			VERSION,
 			mouseX,
 			mouseY,
+			upgrade1: true
 		}
 	})
 }
