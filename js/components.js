@@ -1,6 +1,7 @@
 function loadVue(){
   Vue.component('upgrade',{
-    template: '<button>a</button>'
+	props: ['name']
+    template: '<button>{{name}}</button>'
   })
   
   
